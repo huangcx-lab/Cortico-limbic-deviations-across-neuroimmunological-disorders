@@ -1,1 +1,1 @@
-# Cortico-limbic-deviations-from-normative-references-across-neuroimmunological-disorders
+# Cortico-limbic-deviations-across-neuroimmunological-disorders
