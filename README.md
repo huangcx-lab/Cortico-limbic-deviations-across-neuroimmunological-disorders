@@ -16,7 +16,7 @@
    2.11 [Prognosis risk stratification](#Prognosis-risk-stratificationR)  
 3. [License](#License)
 
-   ---
+---
 
 ## 1. Introduction
 
