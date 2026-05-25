@@ -7,14 +7,13 @@
    2.2 [Normative Modeling](#Normative-model-fitR)  
    2.3 [Normative curve estimation and peak age determination](#PeakAge-and-MedianTrajectoriesR)  
    2.4 [Statistical analyses of deviation scores across diseases](#Stastical-analysis-deviations-across-diseasesR)  
-   2.5 [Disease Classification (ROC Analysis)]  
-         2.5.1 [disease-vs-HC ROC analysis using centile-score-based model](#ROC-disease-vs-HC-QuantDataR)  
-         2.5.2 [disease-vs-HC ROC analysis using Raw-data-based model)](#ROC-disease-vs-HC-RawdataR)  
-         2.5.3 [One-vs-RestDisease ROC analysis using centile-score-based model)](#ROC-One-vs-RestDisease-QuantDataR)  
-         2.5.4 [One-vs-RestDisease ROC analysis using Raw-data-based model)](#ROC-One-vs-RestDisease-RawDataR)  
-   2.6 [Clinical scores association analysis](#Partial-correlationR)  
-   2.7 [Clinical score prediction](#Clinical-score-predictionR)  
-   2.8 [Prognosis risk stratification](#Prognosis-risk-stratificationR)  
+   2.5 [disease-vs-HC ROC analysis using centile-score-based model](#ROC-disease-vs-HC-QuantDataR)  
+   2.6 [disease-vs-HC ROC analysis using Raw-data-based model)](#ROC-disease-vs-HC-RawdataR)  
+   2.7 [One-vs-RestDisease ROC analysis using centile-score-based model)](#ROC-One-vs-RestDisease-QuantDataR)  
+   2.8 [One-vs-RestDisease ROC analysis using Raw-data-based model)](#ROC-One-vs-RestDisease-RawDataR)  
+   2.9 [Clinical scores association analysis](#Partial-correlationR)  
+   2.10 [Clinical score prediction](#Clinical-score-predictionR)  
+   2.11 [Prognosis risk stratification](#Prognosis-risk-stratificationR)  
 3. [License](#License)
 
    ---
@@ -63,7 +62,7 @@ Performs group comparisons, effect size estimation, and multiple-comparison corr
 
 ---
  
-### 2.5 Disease Classification (ROC Analysis)
+### 2.5-2.8 Disease Classification (ROC Analysis)
 
 `ROC-disease-vs-HC-QuantData.R`
 `ROC-disease-vs-HC-Rawdata.R`
@@ -74,7 +73,7 @@ ROC analysis for disease-vs-HC and One-vs-RestDisease classification tasks.The p
 
 ---
  
-### 2.6 Clinical scores association analysis
+### 2.9 Clinical scores association analysis
  
 `Partial-correlation.R`
 
@@ -82,13 +81,13 @@ Performs partial correlation analysis to evaluate the association between centil
 
 ---
 
-### 2.7 Clinical score prediction
+### 2.10 Clinical score prediction
 
 `Clinical-score-prediction.R`
 
 Predicts clinical performance using SVR with Elastic Net feature selection, validated via 10-fold cross-validation.
   
-### 2.8 Prognosis risk stratification
+### 2.11 Prognosis risk stratification
 
 `Prognosis-risk-stratification.R`
 
